@@ -1,4 +1,4 @@
-package com.walker.microservice.controller;
+package com.walker.microservice.api.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

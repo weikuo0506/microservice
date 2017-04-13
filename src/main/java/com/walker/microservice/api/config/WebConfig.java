@@ -1,4 +1,4 @@
-package com.walker.microservice.config;
+package com.walker.microservice.api.config;
 
 import org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Configuration;
