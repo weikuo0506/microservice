@@ -11,8 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin
 public class SimpleController {
-    @RequestMapping(method = RequestMethod.GET,path = "/hello")
+    @RequestMapping(name="helloService", method = RequestMethod.GET,path = "/hello")
     public String hello() {
         return "hello world";
+    }
+
+    @RequestMapping(name="hiService", method = RequestMethod.GET,path = "/hi")
+    public String hi() {
+        return "Hi, how are you?";
     }
 }
